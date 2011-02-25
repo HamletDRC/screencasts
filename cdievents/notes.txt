@@ -1,0 +1,50 @@
+
+Event System. 
+
+1. Intro - "CDI Event Bus Basics" - Canoo & JetBrains
+Hi, my name is Hamlet D'Arcy and I work at Canoo Engineering and I'm also a JetBrains academy member. I created this screencast to demonstrate the basics of using the CDI Event System. CDI is JSR 299, Java Contexts and Dependency Injection. It has a Java SE implementation called Weld, which I'll demonstrate today. CDI can be used in both Java EE and Java SE. The event system is just a small part of CDI, but an interesting part. 
+
+
+2. Background - MVC Slide
+As I said in my previous screencast, the reason I'm interested in Event Buses is that they reduce coupling in MVC applications. Model View Controller is used in user interfaces to seperate the view code from application behavior. The problem I have is that applications do not consist of one MVC group but many. And as your application grows so does the coupling between the controllers. You can reduce this coupling by having all the components communicate through an event bus. 
+
+
+0. Start with Maven build
+1. Start with PingPongController - just observers container startup
+2. Create PingEvent & Pong Event Pojo
+3. Inject PingEvent
+    @Inject
+    Event<PingEvent> event;
+4. Fire Ping Event
+        event.fire(new PingEvent());
+
+5. Write PingView
+    @Inject
+    Event<PongEvent> event;
+
+    public void onPing(@Observes PingEvent e) throws Exception {
+        System.out.println("Ping");
+        Thread.sleep(1000);
+        event.fire(new PongEvent());
+    }
+
+6. Write PongView
+    @Inject
+    Event<PingEvent> event;
+
+    public void onPong(@Observes PongEvent e) throws Exception {
+        System.out.println("Pong");
+        Thread.sleep(1000);
+        event.fire(new PingEvent());
+    }
+
+7. Run Example
+    - note strange startup target
+
+8. Add images and re run
+
+11. Show updated diagram
+So in the end we have (in this example) controllers and views communicating without being coupled, and we have a lightweight, POJO based event system that was easy to work with. Very nicely done. 
+
+12. Exit slide
+So that's it, thanks for listening. You can follow HamletDRC on twitter to see more updates like this in the future. Bye. 
