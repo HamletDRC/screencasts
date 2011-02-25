@@ -1,0 +1,36 @@
+------------------
+Button Handler
+------------------
+
+        final SimpleEventBus bus = new SimpleEventBus();
+
+
+        button.addClickHandler(new ClickHandler() {
+            public void onClick(ClickEvent event) {
+                button.setVisible(false);
+                bus.fireEvent(new PingEvent());
+            }
+        });
+
+
+
+-------------------
+View
+-------------------
+
+
+        bus.addHandler(PongEvent.TYPE, new PongEventHandler() {
+            public void onEvent(PongEvent event) {
+                setText("Pong");
+
+                new Timer() {
+                    public void run() {
+                        setText("");
+                        bus.fireEvent(new PingEvent());
+                    }
+                }.schedule(1000);
+            }
+        });
+
+
+

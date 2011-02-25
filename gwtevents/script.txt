@@ -1,0 +1,26 @@
+1. Intro - "GWT Event Bus Basics" - Canoo & JetBrains
+Hi, my name is Hamlet D'Arcy and I work at Canoo Engineering and I'm also a JetBrains academy member. I created this screencast to demonstrate the basics of using the GWT Event Bus. The reason I'm interested in Event Buses is that they're a good way to reduce coupling within MVC applications. 
+
+2. Background - MVC Slide
+Model View Controller is a pattern used commonly in user interfaces to seperate the code of the view logic from the code of the application behavior. The controller and the view talk to each other and exchange data. The problem I have is that applications do not consist of one MVC group but many. And as your application grows so does the coupling between the controllers. You can reduce this coupling by having all the components communicate through an event bus. 
+
+3. GWT Project - Start with 2 views & Module
+
+
+* Create Events
+4. Add Event Handler
+5. Add Event
+6. Repeat
+
+* Wire Event Bus
+7. Add Event Bus
+8. Add on click
+9. Field view
+10. Field in other view
+
+* Recap
+11. Show updated diagram
+So in the end we have (in this example) two views talking to each other without being coupled. I tried to make the example simple, and in real life you would want the controllers coupled to the event bus, not the view, but the principle stands. THere is a bit of boilerplate in the GWT approach, but it works well. 
+
+12. Exit slide
+So that's it, thanks for listening. You can follow HamletDRC on twitter to see more updates like this in the future. Bye. 

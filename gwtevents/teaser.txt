@@ -1,0 +1,3 @@
+GWT Event Bus Basics
+
+This screencast explains why MVC applications benefit from an event bus, and it demonstrates how to create, wire, and respond to events in GWT. Not bad for a six minute video. 
