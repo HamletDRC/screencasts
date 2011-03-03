@@ -29,3 +29,10 @@ update PongController
 Run 
 
 Exit - That's it. We created a new app, created some MVC groups, and then communicated between the groups using the Event Bus. The Griffon event system is convention based, simple to work with, and effective. That's it, thanks for listening. You can follow HamletDRC on twitter to see more updates like this in the future. Bye. 
+
+http://griffon.codehaus.org/
+http://refcardz.dzone.com/refcardz/getting-started-griffon
+http://dist.codehaus.org/griffon/guide/index.html
+
+If you like this, you can check out my other screencasts on YouTube (http://www.youtube.com/user/HamletDRC) or JetBrains.tv (http://tv.jetbrains.net/tags/hamlet)
+
