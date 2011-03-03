@@ -1,6 +1,42 @@
+Griffon MVC Groups and Event System
+
+JetBrains.tv info
+-----------------
 Teaser: 
+
+How to create a Griffon app, how to create several MVC groups, and how to communicate between MVC groups using the Griffon event bus. 
+
 Body: 
 
+I created this screencast to demonstrate how to work with Griffon MVC Groups and the event bus. Griffon has a strong MVC focus, and functionality is built using MVC groups. This is not a screen or a form, an MVC group is a piece of functionality, and a single form is made of MVC groups composed together. The way MVC groups talk to each other is through an event bus, rather than being coupled directly to each other. 
+
+If you want written documentation on these topics, then please read: 
+* The Griffon RefCard - <a href="http://refcardz.dzone.com/refcardz/getting-started-griffon">http://refcardz.dzone.com/refcardz/getting-started-griffon</a>
+* The Griffon User Guide - <a href="http://dist.codehaus.org/griffon/guide/index.html">http://dist.codehaus.org/griffon/guide/index.html</a>
+* The Griffon Main Site - <a href="http://griffon.codehaus.org/">http://griffon.codehaus.org/</a>
+
+If you like this, you can check out my other screencasts on YouTube (http://www.youtube.com/user/HamletDRC) or JetBrains.tv (http://tv.jetbrains.net/tags/hamlet)
+
+
+Web Page: 
+--------
+Griffon has a strong MVC focus, and functionality is built using MVC groups. This is not a screen or a form, an MVC group is a piece of functionality, and a single form is made of MVC groups composed together. The way MVC groups talk to each other is through an event bus, rather than being coupled directly to each other. 
+
+I created a screencast that demonstrates these concepts in just under 7 minutes. In the video, I create an app, create several MVC groups, and then wire them together with the event bus. 
+
+If the video doesn't play correctly, you may want to launch it from the <a href="">JetBrains.tv site</a>.
+
+??? - Object Ref
+
+Boom. Winning.
+
+If you like this, you can check out my other screencasts on YouTube (<a href="http://www.youtube.com/user/HamletDRC">http://www.youtube.com/user/HamletDRC</a>) or JetBrains.tv (<a href="http://tv.jetbrains.net/tags/hamlet">http://tv.jetbrains.net/tags/hamlet</a>)</div>
+
+
+
+
+Script
+-----------------------
 Griffon MVC Groups and Event System
 
 1. Intro - "Griffon MVC Groups and Event System" - Canoo & JetBrains
