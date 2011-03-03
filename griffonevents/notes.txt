@@ -1,0 +1,31 @@
+Teaser: 
+Body: 
+
+Griffon MVC Groups and Event System
+
+1. Intro - "Griffon MVC Groups and Event System" - Canoo & JetBrains
+Hi, my name is Hamlet D'Arcy and I work at Canoo Engineering and I'm also a JetBrains academy member. I created this screencast to demonstrate how to work with Griffon MVC Groups and the event bus. Griffon has a strong MVC focus, and functionality is built using MVC groups. This is not a screen or a form, an MVC group is a piece of functionality, and a single form is made of MVC groups composed together. The way MVC groups talk to each other is through an event bus, rather than being coupled directly to each other. 
+Let's see it in action. 
+
+
+1. Create Application PingPong
+2. create-mvc Ping
+3. create-mvc Pong
+4. Update Controller to create 2 MVC groups
+5. update PingPongView
+6. update PingView
+7. update PingModel
+8. update PongView
+9. update PongModel
+10. copy images
+11. Run
+
+"So now we have a form made up of two MVC Groups, and the MVC groups are decoupled from each other. What we need is a britual ping pong ball batted between the views. To do this we'll use the Griffon Event System. The serve button is going to create a ping event, and then the other controllers respond by updating the UI and posting a new event. 
+
+update PingPongView
+update PingPongController
+update PingController
+update PongController
+Run 
+
+Exit - That's it. We created a new app, created some MVC groups, and then communicated between the groups using the Event Bus. The Griffon event system is convention based, simple to work with, and effective. That's it, thanks for listening. You can follow HamletDRC on twitter to see more updates like this in the future. Bye. 

@@ -1,3 +1,7 @@
+Teaser: Java EE 6 ships with CDI, Contexts and Dependency Injection, and CDI is also available in Java SE using the Weld framework. This screencast is about CDI events and the event system. It briefly explains the benefits of an event system and then shows how easy it is to use from CDI. 
+
+Body: Java EE 6 ships with CDI, Contexts and Dependency Injection, and CDI is also available in Java SE using the Weld framework.  This screencast shows you how to use CDI events and the event system, which is just one part of the larger CDI feature set. The screencast briefly explains the benefits of an event system and then shows how easy it is to use it from CDI. 
+
 
 Event System. 
 

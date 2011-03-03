@@ -1,0 +1,60 @@
+application(title: 'GriffonEventDemo',
+  size: [820,480],
+  location: [50,50],
+  locationByPlatform:true,
+  iconImage: imageIcon('/griffon-icon-48x48.png').image,
+  iconImages: [imageIcon('/griffon-icon-48x48.png').image,
+               imageIcon('/griffon-icon-32x32.png').image,
+               imageIcon('/griffon-icon-16x16.png').image]) {
+
+
+    vbox {
+        button('Serve', actionPerformed: controller.&serve)
+        panel {
+            borderLayout()
+            widget(app.views.ping.view, constraints: BorderLayout.WEST)
+            widget(app.views.pong.view, constraints: BorderLayout.EAST)
+        }
+    }
+}
+----------------------------------------------------------------
+class PingModel {
+   @Bindable String message
+}
+----------------------------------------------------------------
+view = hbox {
+
+    label(icon: imageIcon('/pingpong.png'))
+    label(text:bind {model.message})
+}
+-----------------------------------------------------------------
+class GriffonEventDemoController {
+    // these will be injected by Griffon
+    def model
+    def view
+
+    void mvcGroupInit(Map args) {
+        createMVCGroup('Ping', 'ping')
+        createMVCGroup('Pong', 'pong')
+    }
+
+    def serve = { evt = null ->
+
+        view.serveButton.visible = false
+
+        doOutside { app.event('Ping') }
+    }
+}
+-------------------------------------------------------------------
+class PingController {
+
+    def model
+    def view
+
+    def onPing = { evt = null ->
+        doLater { model.message = 'Ping' }
+        sleep(1000)
+        edt { model.message = '' }
+        app.event('Pong')
+    }
+}
