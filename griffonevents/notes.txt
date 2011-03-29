@@ -24,14 +24,18 @@ Griffon has a strong MVC focus, and functionality is built using MVC groups. Thi
 
 I created a screencast that demonstrates these concepts in just under 7 minutes. In the video, I create an app, create several MVC groups, and then wire them together with the event bus. 
 
-If the video doesn't play correctly, you may want to launch it from the <a href="">JetBrains.tv site</a>.
+If the video doesn't play correctly, you may want to launch it from the <a href="http://tv.jetbrains.net/videocontent/griffon-mvc-groups-and-event-system">JetBrains.tv site</a>. Also, if you want to be nice then you can <a href="http://www.dzone.com/links/griffon_mvc_groups_and_event_system.html">upvote this at DZone</a>. 
 
-??? - Object Ref
+<object width="400" height="300" id="_player" name="_player" data="http://tv.jetbrains.net/sites/default/files/flowplayer3/flowplayer-3.2.2.swf" type="application/x-shockwave-flash"><param name="movie" value="http://tv.jetbrains.net/sites/default/files/flowplayer3/flowplayer-3.2.2.swf" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value='config={"clip":{"baseUrl":"http://tv.jetbrains.net","scaling":"orig","autoPlay":false,"autoBuffering":true,"url":"sites/default/files/videos/converted/griffonmvc.flv"},"plugins":{"controls":{"stop":true}},"playlist":[{"baseUrl":"http://tv.jetbrains.net","scaling":"orig","autoPlay":false,"autoBuffering":true,"url":"http://tv.jetbrains.net/sites/default/files/videos/converted/griffonmvc.flv"}]}' /></object>
 
 Boom. Winning.
 
-If you like this, you can check out my other screencasts on YouTube (<a href="http://www.youtube.com/user/HamletDRC">http://www.youtube.com/user/HamletDRC</a>) or JetBrains.tv (<a href="http://tv.jetbrains.net/tags/hamlet">http://tv.jetbrains.net/tags/hamlet</a>)</div>
+If you like this, you can check out my other screencasts on YouTube (<a href="http://www.youtube.com/user/HamletDRC">http://www.youtube.com/user/HamletDRC</a>) or JetBrains.tv (<a href="http://tv.jetbrains.net/tags/hamlet">http://tv.jetbrains.net/tags/hamlet</a>)
 
+If you want written documentation on these topics, then please read: 
+* The Griffon RefCard - <a href="http://refcardz.dzone.com/refcardz/getting-started-griffon">http://refcardz.dzone.com/refcardz/getting-started-griffon</a>
+* The Griffon User Guide - <a href="http://dist.codehaus.org/griffon/guide/index.html">http://dist.codehaus.org/griffon/guide/index.html</a>
+* The Griffon Main Site - <a href="http://griffon.codehaus.org/">http://griffon.codehaus.org/</a>
 
 
 
