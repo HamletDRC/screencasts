@@ -49,10 +49,62 @@ That's it, thanks for listening. You can follow HamletDRC on twitter to see more
 
 
 Teaser: 
+This screencast demonstrates IDEA's static code analysis features and how to write your own rule using Structural Search & Replace. I'll give you a quick overview of IDEA inspections, show you how to use Structural Search, and then demonstate creating a new inspection and quick fix based on this search. 
+
 Body: 
+<p>This screencast demonstrates IDEA's static code analysis features and  how to write your own rule using Structural Search &amp; Replace. I'll  give you a quick overview of IDEA inspections, show you how to use  Structural Search, and then demonstate creating a new inspection and  quick fix based on this search. </p>
+<p>Check out these pages for more information on IDEA&nbsp;inspections:&nbsp;</p>
+<ul>
+    <li>JetBrains' <a href="http://www.jetbrains.com/idea/features/code_inspection.html">Code Inspection page</a>&nbsp;</li>
+    <li>IDEA's <a href="http://www.jetbrains.com/idea/webhelp/inspecting-source-code.html">Webhelp for inspections</a> </li>
+</ul>
+<p>Read these pages to learn more about Structural Search and Replace:&nbsp;</p>
+<ul>
+    <li>JetBrains' <a href="http://www.jetbrains.com/idea/documentation/ssr.html">Structural Search and Replace Documentation</a></li>
+    <li>IDEA's <a href="http://www.jetbrains.com/idea/webhelp/structural-search-and-replace.html">Webhelp for Structural Search and Replace</a></li>
+</ul>
+<p>I've made a lot of screencasts and blog posts over the years. If you like this, then there are many ways to see the other stuff I've done:&nbsp;</p>
+<ul>
+    <li>My main blog:&nbsp;http://hamletdarcy.blogspot.com</li>
+    <li>My other JetBrains.tv posts:&nbsp;http://tv.jetbrains.net/tags/hamlet</li>
+    <li>IDEA&nbsp;related posts on my blog:&nbsp;http://hamletdarcy.blogspot.com/search/label/IDEA</li>
+    <li>My screencasts on YouTube:&nbsp;http://www.youtube.com/user/HamletDRC</li>
+    <li>IDEA related Posts on my work blog:&nbsp;http://www.canoo.com/blog/tag/idea/</li>
+    <li>Or follow me on Twitter:&nbsp;<a href="http://twitter.com/hamletdrc">@HamletDRC</a> </li>
+</ul>
+<p>Phew, that's a lot of self-promotion :) </p>
+<p>Thanks for watching, and leave a comment!&nbsp;</p>
+
+
+Tweet: Static Code Analysis in IDEA screencast: Custom Rules with Structural Search & Replace http://goo.gl/X6nln. Vote at http://goo.gl/0NIUK
+
 Blog Post: 
 
+Well, well, I made another screencast. This time I'm taking on IntelliJ IDEA code inspections, and writing your own static code analysis rule (and quick fix!) using Structural Search & Replace. Not bad for under 5 minutes. 
 
+If you have any trouble viewing the video then perhaps you should watch it directly on the <a href="http://tv.jetbrains.net/videocontent/intellij-idea-static-analysis-custom-rules-with-structural-search-replace">JetBrains site</a>. And if you're feeling generous, then <a href="http://www.dzone.com/links/intellij_idea_static_code_analysis_screencast.html">clicky clicky</a> to upvote at DZone. 
 
-http://www.jetbrains.com/idea/documentation/ssr.html
+<object width="400" height="300" id="_player" name="_player" data="http://tv.jetbrains.net/sites/default/files/flowplayer3/flowplayer-3.2.2.swf" type="application/x-shockwave-flash"><param name="movie" value="http://tv.jetbrains.net/sites/default/files/flowplayer3/flowplayer-3.2.2.swf" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value='config={"clip":{"baseUrl":"http://tv.jetbrains.net","scaling":"orig","autoPlay":false,"autoBuffering":true,"url":"sites/default/files/videos/converted/ideastaticanalysis.flv"},"plugins":{"controls":{"stop":true}},"playlist":[{"baseUrl":"http://tv.jetbrains.net","scaling":"orig","autoPlay":false,"autoBuffering":true,"url":"http://tv.jetbrains.net/sites/default/files/videos/converted/ideastaticanalysis.flv"}]}' /></object>
+
+<p>Check out these pages for more information on IDEA&nbsp;inspections:&nbsp;</p>
+<ul>
+    <li>JetBrains' <a href="http://www.jetbrains.com/idea/features/code_inspection.html">Code Inspection page</a>&nbsp;</li>
+    <li>IDEA's <a href="http://www.jetbrains.com/idea/webhelp/inspecting-source-code.html">Webhelp for inspections</a></li>
+</ul>
+<p>Read these pages to learn more about Structural Search and Replace:&nbsp;</p>
+<ul>
+    <li>JetBrains' <a href="http://www.jetbrains.com/idea/documentation/ssr.html">Structural Search and Replace Documentation</a></li>
+    <li>IDEA's <a href="http://www.jetbrains.com/idea/webhelp/structural-search-and-replace.html">Webhelp for Structural Search and Replace</a></li>
+</ul>
+<p>I've made a lot of screencasts and blog posts over the years. If you like this, then there are many ways to see the other stuff I've done:&nbsp;</p>
+<ul>
+    <li>My main blog:&nbsp;<a href="http://hamletdarcy.blogspot.com">http://hamletdarcy.blogspot.com</a></li>
+    <li>My other JetBrains.tv posts:&nbsp;<a href="http://tv.jetbrains.net/tags/hamlet">http://tv.jetbrains.net/tags/hamlet</a></li>
+    <li>IDEA&nbsp;related posts on my blog:&nbsp;<a href="http://hamletdarcy.blogspot.com/search/label/IDEA">http://hamletdarcy.blogspot.com/search/label/IDEA</a></li>
+    <li>My screencasts on YouTube:&nbsp;<a href="http://www.youtube.com/user/HamletDRC">http://www.youtube.com/user/HamletDRC</a></li>
+    <li>IDEA related Posts on my work blog:&nbsp;<a href="http://www.canoo.com/blog/tag/idea/">http://www.canoo.com/blog/tag/idea/</a></li>
+    <li>Or follow me on Twitter:&nbsp;<a href="http://twitter.com/hamletdrc">@HamletDRC</a></li>
+</ul>
+<p>Phew, that's a lot of self-promotion :)</p>
+<p>Thanks for watching, and leave a comment!&nbsp;</p>
 
