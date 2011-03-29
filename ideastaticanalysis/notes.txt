@@ -1,0 +1,58 @@
+IntelliJ IDEA Static Analysis: 
+Custom Rules with Structural Search & Replace
+
+1. Intro
+Hi, my name is Hamlet D'Arcy and I work at Canoo Engineering and I'm also a JetBrains academy member. I created this screencast to demonstrate IDEA's static code analysis features and how to write your own rule using Structural Search & Replace. I'll give you a quick overview of IDEA inspections, show you how to use Structural Search, and then demonstate creating a new inspection and quick fix based on this search. 
+
+Let's start by seeing some inspections. 
+
+2. Inspections
+
+Inspections run on the fly within IDEA to warn you of bad practices or potential errors. Here is an example. 
+
+    if (s instanceof String) {
+        System.out.println(s);
+    }
+
+Inspections often have quick fixes that allow you to fix the code by pressing Alt+Enter. Here you can see this code is simplified to remove the instance of. 
+
+There are well over 1,000 inspections in IDEA, covering Java, XML, SQL, and many other languages and frameworks. You can see them all in the settings dialog. 
+
+3. Structural Search and Replace
+You may have noticed the quickfix for a redundant instanceof is to convert it to a null check. instanceof always returns false for null. This means that combining a null check with an instanceof is also unnnecessary. 
+
+    if (s != null && s instanceof String) {
+        System.out.println(s);
+    }
+
+You can use IDEA to find code like this using Structural Search. 
+
+4. UI - (open Structural Search and Replace)
+Structural Search and Replace, or SSR) works off of Code Fragments, not text. The Code fragment can be any valid Java expression, statement, class or comment. SSR has templates and variables, and you can construct Java-type aware queries such as "find all calls to logger.info" or in our case "find all null checks followed by an instanceof". Let's construct our search using an existing template. 
+
+
+$Expr$ != null && $Expr$ instanceof $Type$
+
+
+5. SSR and Inspections are integrated together, so that you can write an inspection based on a structural search and a quick fix based on the structural replace. Let's do that. 
+
+6. 
+* http://www.jetbrains.com/idea/documentation/ssr.html
+* @HamletDRC on Twitter
+* http://hamletdarcy.blogspot.com
+
+To summarize, we saw a brief introduction to inspections, we saw using Structural Search to search java code, and we saw combining the two to create a new inspection with a quick fix. We've only scratched the surface of Structural Search and Replace, and have not really demonstrated how easily it integrates into the Java type system. If you want to know more then I suggest looking at the documentation on the JetBrains site. 
+That's it, thanks for listening. You can follow HamletDRC on twitter to see more updates like this in the future. Bye. 
+
+
+
+
+
+Teaser: 
+Body: 
+Blog Post: 
+
+
+
+http://www.jetbrains.com/idea/documentation/ssr.html
+
