@@ -1,0 +1,37 @@
+def "$NAME$"() {
+    when:
+    $END$
+    
+    then:
+    true
+}
+
+
+def "$NAME$"() {
+    given:
+    $END$
+    
+    when:
+    // TODO: add when
+    
+    then:
+    true
+}
+
+def "$NAME$"() {
+    expect: 
+    $END$
+    
+    where: 
+    // TODO add where block
+}
+
+
+#if (${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+
+import spock.lang.Specification
+
+#parse("File Header.java")
+class ${NAME} extends Specification {
+    
+}
