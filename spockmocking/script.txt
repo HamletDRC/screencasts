@@ -5,13 +5,6 @@ Spock and Mock Object Basics
 Intro: 
 Hi, my name is Hamlet D'Arcy and I work at Canoo Engineering and I'm also a JetBrains academy member. I created this screencast to show how mock objects can be used in Spock for both stubbing and mocking behavior. Spock has a simple yet powerful syntax for mocking, let's see it in action. 
 
-Code 1: 
-I'll start with a plain old Java project modeling a Warehouse and an Order. The first thing I'll do is create a test for the Order class using the Ctrl+Shift+T shortcut. The parent class for my test is Spock's specification class. Next I'll create a new given-when-then test method using the live template I explained in my previous screencast. 
-
-Code 2: 
-
-Code 3: 
-
 Outro: 
 In this screencast I've only discussed the most basics features of spock mocking. There is a lot more to it, and a great resource to learn more is my Mocking with Spock blog posts on the Canoo blog. Also, if you're new to Spock, then checkout my Spock Basics screencast, and if you're completely new to mocking in general then read my old blog post called "Mocks and Stubs aren't spies". Lastly, i've got a whole bunch more screencasts available on my JetBrains.tv and youtube channel. Check em out. 
 
@@ -29,7 +22,9 @@ This screencast demonstrates how to use the Spock testing specifications for moc
 
 Here are some useful links to read for this webcast: 
 Spock Framework - http://code.google.com/p/spock/
-
+Spock Basics Screencast: http://tv.jetbrains.net/videocontent/ffff
+Mocks and Stubs aren't Spies: http://hamletdarcy.blogspot.com/2007/10/mocks-and-stubs-arent-spies.html
+Mocking with Spocks: http://www.canoo.com/blog/2010/04/20/spock-and-test-spies-a-logical-choice/
 
 <p>I've made a lot of screencasts and blog posts over the years. If you like this, then there are many ways to see the other stuff I've done:&nbsp;</p> 
 <ul> 
@@ -41,14 +36,12 @@ Spock Framework - http://code.google.com/p/spock/
     <li>Or follow me on Twitter:&nbsp;<a href="http://twitter.com/hamletdrc">@HamletDRC</a> </li> 
 </ul> 
 <p>Phew, that's a lot of self-promotion :) </p> 
+
+<p>The screencast was created with Ubuntu 10.04, Audicity, gtk-RecordMyDesktop, IntelliJ IDEA, and LibreOffice. OS from top to bottom. 
+
 <p>Thanks for watching, and leave a comment!&nbsp;</p> 
 
 
-Spock Basics Screencast: http://tv.jetbrains.net/videocontent/ffff
-Mocks and Stubs aren't Spies: http://hamletdarcy.blogspot.com/2007/10/mocks-and-stubs-arent-spies.html
-Mocking with Spocks: http://www.canoo.com/blog/2010/04/20/spock-and-test-spies-a-logical-choice/
-More of my screencasts:http://tv.jetbrains.net/tags/hamlet
-Spock: http://goo.gl/3xKJ
 
 
 

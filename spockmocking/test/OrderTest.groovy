@@ -2,48 +2,46 @@ import spock.lang.Specification
 
 public class OrderTest extends Specification {
 
-    private static TALISKER = 'talisker'
-
-    def "fill an order when you have enough in the warehouse"() {
+    def "fill an order when there is enough inventory"() {
         given:
-        def order = new Order(TALISKER, 50)
+        def order = new Order('talisker', 50)
         Warehouse warehouse = Mock()
 
         when:
-        warehouse.hasInventory(TALISKER, 50) >> true
+        warehouse.hasInventory('talisker', 50) >> true
         order.fill(warehouse)
 
         then:
         order.filled
-        1* warehouse.remove(TALISKER, 51)
+        1 * warehouse.remove('talisker', 50)
     }
 
-    def "do no fill an order when you have no inventory"() {
+    def "do not fill an order when missing inventory"() {
         given:
-        def order = new Order(TALISKER, 50)
+        def order = new Order('talisker', 50)
         Warehouse warehouse = Mock()
 
         when:
         warehouse.hasInventory(_, _) >> false
-        order.fill(warehouse)
+        order.filled
 
         then:
         !order.filled
         0 * warehouse.remove(_, _)
     }
 
-    def "fill an order posts an event to the event bus"() {
+    def "test event messages are posted"() {
         given:
-        EventBus bus = Mock()
-        def warehouse = new Warehouse(bus)
+        EventBus eventBus = Mock()
+        Warehouse warehouse = new Warehouse(eventBus)
 
         when:
-        warehouse.remove(TALISKER, 50)
+        warehouse.remove('talisker', 50)
 
         then:
-        1 * bus./post(Sync|Async)/(_, {
+        1 * eventBus./post(Sync|Async)/(_, {
             def root = new XmlSlurper().parseText(it)
-            root.data.@name == TALISKER && root.data.@quantity == 50
+            root.data.@name == 'talisker' && root.data.@quantity == 50
         })
     }
 }
