@@ -1,0 +1,84 @@
+<pitivi formatter="etree" version="0.1">
+  <export-settings aencoder="twolame" audiochannels="2" audiodepth="16" audiorate="44100" muxer="avimux" vencoder="diracenc" videoheight="768" videopar-denom="1" videopar-num="1" videorate-denom="1" videorate-num="30" videowidth="1024" />
+  <factories>
+    <sources>
+      <source default_duration="115666666666" duration="115666666666" filename="file:///home/hdarcy/Documents/screencasts/spockmocking/code1.ogv" id="0" type="pitivi.factories.file.FileSourceFactory">
+        <input-streams />
+        <output-streams>
+          <stream caps="video/x-raw-yuv, format=(fourcc)I420, framerate=(fraction)15/1, pixel-aspect-ratio=(fraction)1/1, width=(int)1024, height=(int)768" id="1" name="src0" type="pitivi.stream.VideoStream" />
+        </output-streams>
+      </source>
+      <source default_duration="65666666666" duration="65666666666" filename="file:///home/hdarcy/Documents/screencasts/spockmocking/code2.ogv" id="2" type="pitivi.factories.file.FileSourceFactory">
+        <input-streams />
+        <output-streams>
+          <stream caps="video/x-raw-yuv, format=(fourcc)I420, framerate=(fraction)15/1, pixel-aspect-ratio=(fraction)1/1, width=(int)1024, height=(int)768" id="3" name="src0" type="pitivi.stream.VideoStream" />
+        </output-streams>
+      </source>
+      <source default_duration="106933333333" duration="106933333333" filename="file:///home/hdarcy/Documents/screencasts/spockmocking/code3.ogv" id="4" type="pitivi.factories.file.FileSourceFactory">
+        <input-streams />
+        <output-streams>
+          <stream caps="video/x-raw-yuv, format=(fourcc)I420, framerate=(fraction)15/1, pixel-aspect-ratio=(fraction)1/1, width=(int)1024, height=(int)768" id="5" name="src0" type="pitivi.stream.VideoStream" />
+        </output-streams>
+      </source>
+      <source default_duration="1800000000" duration="1800000000" filename="file:///home/hdarcy/Documents/screencasts/spockmocking/intro.ogv" id="6" type="pitivi.factories.file.FileSourceFactory">
+        <input-streams />
+        <output-streams>
+          <stream caps="video/x-raw-yuv, format=(fourcc)I420, framerate=(fraction)15/1, pixel-aspect-ratio=(fraction)1/1, width=(int)1024, height=(int)768" id="7" name="src0" type="pitivi.stream.VideoStream" />
+        </output-streams>
+      </source>
+      <source default_duration="1400000000" duration="1400000000" filename="file:///home/hdarcy/Documents/screencasts/spockmocking/outro.ogv" id="8" type="pitivi.factories.file.FileSourceFactory">
+        <input-streams />
+        <output-streams>
+          <stream caps="video/x-raw-yuv, format=(fourcc)I420, framerate=(fraction)15/1, pixel-aspect-ratio=(fraction)1/1, width=(int)1024, height=(int)768" id="9" name="src0" type="pitivi.stream.VideoStream" />
+        </output-streams>
+      </source>
+    </sources>
+  </factories>
+  <timeline>
+    <tracks>
+      <track>
+        <stream caps="video/x-raw-rgb; video/x-raw-yuv" id="10" name="None" type="pitivi.stream.VideoStream" />
+        <track-objects>
+          <track-object duration="(gint64)1800000000" id="11" in_point="(gint64)0" media_duration="(gint64)1800000000" priority="(int)0" start="(gint64)0" type="pitivi.timeline.track.SourceTrackObject">
+            <factory-ref id="6" />
+            <stream-ref id="7" />
+            <curves>
+              <curve property="alpha" type="gdouble" version="1">
+                <start mode="2" value="(gdouble)1.0" />
+                <end mode="2" value="(gdouble)1.0" />
+              </curve>
+            </curves>
+          </track-object>
+          <track-object duration="(gint64)1800000000" id="12" in_point="(gint64)0" media_duration="(gint64)1800000000" priority="(int)0" start="(gint64)1800000000" type="pitivi.timeline.track.SourceTrackObject">
+            <factory-ref id="6" />
+            <stream-ref id="7" />
+            <curves>
+              <curve property="alpha" type="gdouble" version="1">
+                <start mode="2" value="(gdouble)1.0" />
+                <end mode="2" value="(gdouble)1.0" />
+              </curve>
+            </curves>
+          </track-object>
+        </track-objects>
+      </track>
+      <track>
+        <stream caps="audio/x-raw-int; audio/x-raw-float" id="13" name="None" type="pitivi.stream.AudioStream" />
+        <track-objects />
+      </track>
+    </tracks>
+    <timeline-objects>
+      <timeline-object>
+        <factory-ref id="6" />
+        <track-object-refs>
+          <track-object-ref id="11" />
+        </track-object-refs>
+      </timeline-object>
+      <timeline-object>
+        <factory-ref id="6" />
+        <track-object-refs>
+          <track-object-ref id="12" />
+        </track-object-refs>
+      </timeline-object>
+    </timeline-objects>
+  </timeline>
+</pitivi>
