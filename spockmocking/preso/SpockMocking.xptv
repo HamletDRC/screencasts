@@ -1,5 +1,5 @@
 <pitivi formatter="etree" version="0.1">
-  <export-settings aencoder="twolame" audiochannels="2" audiodepth="16" audiorate="44100" muxer="avimux" vencoder="diracenc" videoheight="768" videopar-denom="1" videopar-num="1" videorate-denom="1" videorate-num="30" videowidth="1024" />
+  <export-settings aencoder="vorbisenc" audiochannels="2" audiodepth="16" audiorate="44100" muxer="oggmux" vencoder="diracenc" videoheight="768" videopar-denom="1" videopar-num="1" videorate-denom="1" videorate-num="30" videowidth="1024" />
   <factories>
     <sources>
       <source default_duration="1800000000" duration="1800000000" filename="file:///home/hdarcy/Documents/screencasts/spockmocking/intro.ogv" id="0" type="pitivi.factories.file.FileSourceFactory">
