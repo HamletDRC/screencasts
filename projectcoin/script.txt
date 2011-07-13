@@ -1,0 +1,65 @@
+
+Title: 
+Java 7 Small Language Changes
+
+
+
+This screencast demonstrates the small language changes that are part of JDK 7, which is available from the Open JDK website. It demonstrates multi-catch, try with resources, strings in switch statements, underscores in literals, and the diamond operator. 
+
+<p>This screencast demonstrates the small language changes that are part of JDK 7, which is available from the Open JDK website. It demonstrates multi-catch, try with resources, strings in switch statements, underscores in literals, and the diamond operator.</p>
+
+<p>I've made a lot of screencasts and blog posts over the years. If you like this, then there are many ways to see the other stuff I've done:&nbsp;</p>
+<ul>
+    <li>My main blog:&nbsp;<a href="http://hamletdarcy.blogspot.com">http://hamletdarcy.blogspot.com</a></li>
+    <li>My other JetBrains.tv posts:&nbsp;<a href="http://tv.jetbrains.net/tags/hamlet">http://tv.jetbrains.net/tags/hamlet</a></li>
+    <li>IDEA&nbsp;related posts on my blog:&nbsp;<a href="http://hamletdarcy.blogspot.com/search/label/IDEA">http://hamletdarcy.blogspot.com/search/label/IDEA</a></li>
+    <li>My screencasts on YouTube:&nbsp;<a href="http://www.youtube.com/user/HamletDRC">http://www.youtube.com/user/HamletDRC</a></li>
+    <li>IDEA related Posts on my work blog:&nbsp;<a href="http://www.canoo.com/blog/tag/idea/">http://www.canoo.com/blog/tag/idea/</a></li>
+    <li>Or follow me on Twitter:&nbsp;<a href="http://twitter.com/hamletdrc">@HamletDRC</a></li>
+</ul>
+
+<p>The screencast was created with Ubuntu 10.04, PiTiVi, Audicity, gtk-RecordMyDesktop, IntelliJ IDEA, and LibreOffice. OS from top to bottom.</p>
+<p>Thanks for watching, and leave a comment!&nbsp;</p>
+
+
+
+
+
+
+
+
+Blogpost: 
+---------
+
+
+Tweet: 
+------
+
+
+
+
+<p>This screencast demonstrates how to use <a href="http://code.google.com/p/spock/">Spock testing</a> specifications and Groovy for mocking and stubbing behavior in unit tests. It covers creating the mock object syntax, setting expectations, verifying and spying on results, and argument matchers.&nbsp;</p>
+<p>&nbsp;</p>
+
+<p>This screencast demonstrates how to use&nbsp;<a href="http://code.google.com/p/spock/">Spock testing</a>&nbsp;specifications and Groovy for mocking and stubbing behavior in unit tests. It covers creating the mock object syntax, setting expectations, verifying and spying on results, and argument matchers.</p>
+<p>Here are some useful links to read for this webcast:</p>
+<ul>
+    <li>Spock Framework - <a href="http://code.google.com/p/spock/">http://code.google.com/p/spock/ </a></li>
+    <li>Spock Basics Screencast: <a href="http://tv.jetbrains.net/videocontent/ffff">http://tv.jetbrains.net/videocontent/ffff </a></li>
+    <li>Mocks and Stubs aren't Spies: <a href="http://hamletdarcy.blogspot.com/2007/10/mocks-and-stubs-arent-spies.html">http://hamletdarcy.blogspot.com/2007/10/mocks-and-stubs-arent-spies.html </a></li>
+    <li>Mocking with Spocks: <a href="http://www.canoo.com/blog/2010/04/20/spock-and-test-spies-a-logical-choice/">http://www.canoo.com/blog/2010/04/20/spock-and-test-spies-a-logical-choice/</a></li>
+</ul>
+<p>I've made a lot of screencasts and blog posts over the years. If you like this, then there are many ways to see the other stuff I've done:&nbsp;</p>
+<ul>
+    <li>My main blog:&nbsp;<a href="http://hamletdarcy.blogspot.com">http://hamletdarcy.blogspot.com</a></li>
+    <li>My other JetBrains.tv posts:&nbsp;<a href="http://tv.jetbrains.net/tags/hamlet">http://tv.jetbrains.net/tags/hamlet</a></li>
+    <li>IDEA&nbsp;related posts on my blog:&nbsp;<a href="http://hamletdarcy.blogspot.com/search/label/IDEA">http://hamletdarcy.blogspot.com/search/label/IDEA</a></li>
+    <li>My screencasts on YouTube:&nbsp;<a href="http://www.youtube.com/user/HamletDRC">http://www.youtube.com/user/HamletDRC</a></li>
+    <li>IDEA related Posts on my work blog:&nbsp;<a href="http://www.canoo.com/blog/tag/idea/">http://www.canoo.com/blog/tag/idea/</a></li>
+    <li>Or follow me on Twitter:&nbsp;<a href="http://twitter.com/hamletdrc">@HamletDRC</a></li>
+</ul>
+<p>Phew, that's a lot of self-promotion :)</p>
+<p>The screencast was created with Ubuntu 10.04, PiTiVi, Audicity, gtk-RecordMyDesktop, IntelliJ IDEA, and LibreOffice. OS from top to bottom.</p>
+<p>Thanks for watching, and leave a comment!&nbsp;</p>
+
+
