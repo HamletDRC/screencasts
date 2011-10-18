@@ -2,27 +2,14 @@
 Title: 
 Java 7 Small Language Changes
 
+http://www.dzone.com/links/java_7_small_language_changes_screencast.html
+http://tv.jetbrains.net/videocontent/java-7-small-language-changes
 
 
-This screencast demonstrates the small language changes that are part of JDK 7, which is available from the Open JDK website. It demonstrates multi-catch, try with resources, strings in switch statements, underscores in literals, and the diamond operator. 
-
-<p>This screencast demonstrates the small language changes that are part of JDK 7, which is available from the Open JDK website. It demonstrates multi-catch, try with resources, strings in switch statements, underscores in literals, and the diamond operator.</p>
-
-<p>I've made a lot of screencasts and blog posts over the years. If you like this, then there are many ways to see the other stuff I've done:&nbsp;</p>
-<ul>
-    <li>My main blog:&nbsp;<a href="http://hamletdarcy.blogspot.com">http://hamletdarcy.blogspot.com</a></li>
-    <li>My other JetBrains.tv posts:&nbsp;<a href="http://tv.jetbrains.net/tags/hamlet">http://tv.jetbrains.net/tags/hamlet</a></li>
-    <li>IDEA&nbsp;related posts on my blog:&nbsp;<a href="http://hamletdarcy.blogspot.com/search/label/IDEA">http://hamletdarcy.blogspot.com/search/label/IDEA</a></li>
-    <li>My screencasts on YouTube:&nbsp;<a href="http://www.youtube.com/user/HamletDRC">http://www.youtube.com/user/HamletDRC</a></li>
-    <li>IDEA related Posts on my work blog:&nbsp;<a href="http://www.canoo.com/blog/tag/idea/">http://www.canoo.com/blog/tag/idea/</a></li>
-    <li>Or follow me on Twitter:&nbsp;<a href="http://twitter.com/hamletdrc">@HamletDRC</a></li>
-</ul>
-
-<p>The screencast was created with Ubuntu 10.04, PiTiVi, Audicity, gtk-RecordMyDesktop, IntelliJ IDEA, and LibreOffice. OS from top to bottom.</p>
-<p>Thanks for watching, and leave a comment!&nbsp;</p>
+<p>This screencast demonstrates the <a href="http://openjdk.java.net/projects/coin/">small language changes</a> that are part of <a href="http://openjdk.java.net/">Open JDK 7</a>, which is available from the Open JDK website. It demonstrates multi-catch, try with resources, strings in switch statements, underscores in literals, and the diamond operator.</p><p>If you have any issues watching the video below, then you may have better luck viewing it on the <a href="http://tv.jetbrains.net/videocontent/java-7-small-language-changes">JetBrains.tv</a> site. </p><object width="400" height="300" id="_ipad" data="http://tv.jetbrains.net/flowplayer/flowplayer-3.2.7.swf" type="application/x-shockwave-flash"><param name="movie" value="http://tv.jetbrains.net/flowplayer/flowplayer-3.2.7.swf" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value='config={"clip":{"scaling":"orig","autoPlay":false,"autoBuffering":true,"url":"/sites/default/files/videos/converted/projectcoin.mp4"},"plugins":{"controls":{"stop":true}},"playlist":[{"scaling":"orig","autoPlay":false,"autoBuffering":true,"url":"http://tv.jetbrains.net/sites/default/files/videos/converted/projectcoin.mp4"}]}' /></object><p>I've made a lot of screencasts and blog posts over the years. If you like this, then there are many ways to see the other stuff I've done:&nbsp;</p><ul>    <li>My main blog:&nbsp;<a href="http://hamletdarcy.blogspot.com">http://hamletdarcy.blogspot.com</a></li>    <li>My other JetBrains.tv posts:&nbsp;<a href="http://tv.jetbrains.net/tags/hamlet">http://tv.jetbrains.net/tags/hamlet</a></li>    <li>IDEA&nbsp;related posts on my blog:&nbsp;<a href="http://hamletdarcy.blogspot.com/search/label/IDEA">http://hamletdarcy.blogspot.com/search/label/IDEA</a></li>    <li>My screencasts on YouTube:&nbsp;<a href="http://www.youtube.com/user/HamletDRC">http://www.youtube.com/user/HamletDRC</a></li>    <li>IDEA related Posts on my work blog:&nbsp;<a href="http://www.canoo.com/blog/tag/idea/">http://www.canoo.com/blog/tag/idea/</a></li>    <li>Or follow me on Twitter:&nbsp;<a href="http://twitter.com/hamletdrc">@HamletDRC</a></li></ul><p>The screencast was created with Ubuntu 10.04, PiTiVi, Audicity, gtk-RecordMyDesktop, IntelliJ IDEA, and LibreOffice. OS from top to bottom.</p><p>Thanks for watching, and leave a comment! </p>
 
 
-
+<object width="800" height="600" id="_ipad" data="http://tv.jetbrains.net/flowplayer/flowplayer-3.2.7.swf" type="application/x-shockwave-flash"><param name="movie" value="http://tv.jetbrains.net/flowplayer/flowplayer-3.2.7.swf" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value='config={"clip":{"scaling":"orig","autoPlay":false,"autoBuffering":true,"url":"/sites/default/files/videos/converted/projectcoin.mp4"},"plugins":{"controls":{"stop":true}},"playlist":[{"scaling":"orig","autoPlay":false,"autoBuffering":true,"url":"http://tv.jetbrains.net/sites/default/files/videos/converted/projectcoin.mp4"}]}' /></object>
 
 
 
